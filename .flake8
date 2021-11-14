@@ -1,6 +1,12 @@
 [flake8]
 exclude =
-  migrations,
+  migrations/,
   __pycache__,
   manage.py,
   settings.py
+ignore =
+    F812,   # list comprehension redefines
+    H101,   # Use TODO(NAME)
+    E225, # whitespace around
+    
+max-complexity = 10

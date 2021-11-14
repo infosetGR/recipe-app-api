@@ -123,4 +123,4 @@ STATIC_URL = '/static/'
 
 # custom user model
 
-AUTH_USER_MODEL='core.user'
+AUTH_USER_MODEL = 'core.user'
